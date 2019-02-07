@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.qq.qpp.MainActivity">
+
+        <LinearLayout
+            android:layout_marginTop="32dp"
+            android:background="#FAFAFA"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/neg"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/sh2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/doppio_one"
+                    android:text="@string/neg"
+                    android:textColor="@color/t"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/pos"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_margin="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@string/pos"
+                    android:background="@drawable/sh"
+                    android:fontFamily="@font/doppio_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:padding="8dp"
+                android:id="@+id/fr"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="32dp"
+            android:background="#FAFAFA"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/neg2"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/sh2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/doppio_one"
+                    android:text="@string/neg"
+                    android:textColor="@color/t"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/pos2"
+                    android:textColor="@color/colorAccent"
+                    android:layout_margin="8dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@string/pos"
+                    android:background="@drawable/sh"
+                    android:fontFamily="@font/doppio_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    tools:ignore="ButtonStyle" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:padding="8dp"
+                android:id="@+id/fr2"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</layout>
